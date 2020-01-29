@@ -1,0 +1,38 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:mime:20170907':
+    - unifile > mime:
+        patched: '2020-01-29T04:01:54.526Z'
+    - unifile > express > send > mime:
+        patched: '2020-01-29T04:01:54.526Z'
+    - unifile > express > serve-static > send > mime:
+        patched: '2020-01-29T04:01:54.526Z'
+  'npm:ms:20151024':
+    - unifile > express > debug > ms:
+        patched: '2020-01-29T04:01:54.526Z'
+    - unifile > express > send > ms:
+        patched: '2020-01-29T04:01:54.526Z'
+    - unifile > express > finalhandler > debug > ms:
+        patched: '2020-01-29T04:01:54.526Z'
+    - unifile > express > send > debug > ms:
+        patched: '2020-01-29T04:01:54.526Z'
+    - unifile > express > serve-static > send > ms:
+        patched: '2020-01-29T04:01:54.526Z'
+    - unifile > express > serve-static > send > debug > ms:
+        patched: '2020-01-29T04:01:54.526Z'
+  'npm:negotiator:20160616':
+    - unifile > express > accepts > negotiator:
+        patched: '2020-01-29T04:01:54.526Z'
+  'npm:request:20160119':
+    - unifile > dbox > request:
+        patched: '2020-01-29T04:01:54.526Z'
+  'npm:uglify-js:20151024':
+    - unifile > jade > transformers > uglify-js:
+        patched: '2020-01-29T04:01:54.526Z'
+    - unifile > jade > constantinople > uglify-js:
+        patched: '2020-01-29T04:01:54.526Z'
+    - unifile > jade > with > uglify-js:
+        patched: '2020-01-29T04:01:54.526Z'
